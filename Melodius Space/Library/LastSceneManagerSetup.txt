@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Level_1_Eden_of_Denial.unity
+- path: Assets/Scenes/Level_1_Boss.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
