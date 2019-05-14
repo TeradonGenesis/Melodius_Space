@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 /// <summary>
 /// Ubh shot ctrl.
-/// </summary>
+/// </summary>  
 [AddComponentMenu("UniBulletHell/Controller/Shot Controller")]
 public class UbhShotCtrl : UbhMonoBehaviour
 {
