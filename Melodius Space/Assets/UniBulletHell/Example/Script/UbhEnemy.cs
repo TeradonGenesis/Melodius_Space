@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 [RequireComponent(typeof(UbhSpaceship))]
@@ -8,7 +9,7 @@ public class UbhEnemy : UbhMonoBehaviour
     public const string NAME_PLAYER_BULLET = "PlayerBullet";
     const string ANIM_DAMAGE_TRIGGER = "Damage";
     [SerializeField]
-    int _Hp = 1;
+    public int _Hp = 1;
     [SerializeField]
     int _Point = 100;
     [SerializeField]
@@ -16,12 +17,17 @@ public class UbhEnemy : UbhMonoBehaviour
     [SerializeField]
     float _StopPoint = 2f;
     UbhSpaceship _Spaceship;
+    public Slider healthSlider;  
+
+    public int _currentHp;  
 
     void Start ()
     {
         _Spaceship = GetComponent<UbhSpaceship>();
 
         Move(transform.up.normalized * -1);
+        _currentHp = _Hp;
+        healthSlider.value = _currentHp;
     }
 
     void FixedUpdate ()
@@ -33,6 +39,7 @@ public class UbhEnemy : UbhMonoBehaviour
             }
         }
     }
+
 
     public void Move (Vector2 direction)
     {
@@ -48,9 +55,9 @@ public class UbhEnemy : UbhMonoBehaviour
 
             UbhObjectPool.Instance.ReleaseGameObject(c.transform.parent.gameObject);
 
-            _Hp = _Hp - bullet._Power;
+            _currentHp = _currentHp - bullet._Power;
 
-            if (_Hp <= 0) {
+            if (_currentHp <= 0) {
                 FindObjectOfType<UbhScore>().AddPoint(_Point);
 
                 _Spaceship.Explosion();
@@ -60,5 +67,9 @@ public class UbhEnemy : UbhMonoBehaviour
                 _Spaceship.GetAnimator().SetTrigger(ANIM_DAMAGE_TRIGGER);
             }
         }
+    }
+
+    void Update() {
+        healthSlider.value = _currentHp;
     }
 }
