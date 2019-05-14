@@ -28,6 +28,7 @@ public class UbhEnemy : UbhMonoBehaviour
         Move(transform.up.normalized * -1);
         _currentHp = _Hp;
         healthSlider.value = _currentHp;
+        healthSlider.maxValue = _Hp;
     }
 
     void FixedUpdate ()

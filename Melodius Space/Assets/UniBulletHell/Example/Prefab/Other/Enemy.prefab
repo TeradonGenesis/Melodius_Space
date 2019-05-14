@@ -188,7 +188,7 @@ MonoBehaviour:
   _Point: 100
   _UseStop: 0
   _StopPoint: 2
-  healthSlider: {fileID: 2470655497980386683, guid: ce8b7963c60698d469a85d32121668e8,
+  healthSlider: {fileID: 3302575011345491973, guid: 0b99457cdbde89041a8f9acb28d99e30,
     type: 3}
   _currentHp: 0
 --- !u!114 &11400006
