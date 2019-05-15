@@ -177,7 +177,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.56, y: 0}
   m_SizeDelta: {x: 55.052, y: 18.606}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &4494307253631173775
@@ -471,6 +471,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: cc56ce88c05cd40bc856e34103e7a2fb, type: 3}
+      propertyPath: _UseStop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: cc56ce88c05cd40bc856e34103e7a2fb, type: 3}
+      propertyPath: _Hp
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: cc56ce88c05cd40bc856e34103e7a2fb, type: 3}
+      propertyPath: _Point
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: cc56ce88c05cd40bc856e34103e7a2fb, type: 3}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 2912173830472500168}
     - target: {fileID: 11400006, guid: cc56ce88c05cd40bc856e34103e7a2fb, type: 3}
       propertyPath: _ShotList.Array.size
       value: 4
@@ -511,22 +527,6 @@ PrefabInstance:
       propertyPath: _ShotList.Array.data[2]._AfterDelay
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: cc56ce88c05cd40bc856e34103e7a2fb, type: 3}
-      propertyPath: _UseStop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: cc56ce88c05cd40bc856e34103e7a2fb, type: 3}
-      propertyPath: _Hp
-      value: 2000
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: cc56ce88c05cd40bc856e34103e7a2fb, type: 3}
-      propertyPath: _Point
-      value: 800
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: cc56ce88c05cd40bc856e34103e7a2fb, type: 3}
-      propertyPath: healthSlider
-      value: 
-      objectReference: {fileID: 2912173830472500168}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc56ce88c05cd40bc856e34103e7a2fb, type: 3}
 --- !u!4 &806762070545720452 stripped
@@ -542,6 +542,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 806762070545720452}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 95d0b70749a6c094fbf4a530080b6c26, type: 3}
+      propertyPath: _BulletNum
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 95d0b70749a6c094fbf4a530080b6c26, type: 3}
+      propertyPath: _AccelerationSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 95d0b70749a6c094fbf4a530080b6c26, type: 3}
+      propertyPath: _BulletSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 95d0b70749a6c094fbf4a530080b6c26, type: 3}
+      propertyPath: _BetweenDelay
+      value: 0.08
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 95d0b70749a6c094fbf4a530080b6c26, type: 3}
       propertyPath: m_Name
       value: SpiralMultiLeftShot 3
@@ -589,22 +605,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 95d0b70749a6c094fbf4a530080b6c26, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 95d0b70749a6c094fbf4a530080b6c26, type: 3}
-      propertyPath: _BulletNum
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 95d0b70749a6c094fbf4a530080b6c26, type: 3}
-      propertyPath: _AccelerationSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 95d0b70749a6c094fbf4a530080b6c26, type: 3}
-      propertyPath: _BulletSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 95d0b70749a6c094fbf4a530080b6c26, type: 3}
-      propertyPath: _BetweenDelay
-      value: 0.08
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95d0b70749a6c094fbf4a530080b6c26, type: 3}
@@ -716,6 +716,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 806762070545720452}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 09bc0c10fd03a06409ff1c5ee4cc526d, type: 3}
+      propertyPath: _BulletNum
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 09bc0c10fd03a06409ff1c5ee4cc526d, type: 3}
+      propertyPath: _AccelerationSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 09bc0c10fd03a06409ff1c5ee4cc526d, type: 3}
+      propertyPath: _BulletSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 09bc0c10fd03a06409ff1c5ee4cc526d, type: 3}
+      propertyPath: _BetweenDelay
+      value: 0.08
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 09bc0c10fd03a06409ff1c5ee4cc526d, type: 3}
       propertyPath: m_Name
       value: SpiralMultiRightShot 3
@@ -763,22 +779,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 09bc0c10fd03a06409ff1c5ee4cc526d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 09bc0c10fd03a06409ff1c5ee4cc526d, type: 3}
-      propertyPath: _BulletNum
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 09bc0c10fd03a06409ff1c5ee4cc526d, type: 3}
-      propertyPath: _AccelerationSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 09bc0c10fd03a06409ff1c5ee4cc526d, type: 3}
-      propertyPath: _BulletSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 09bc0c10fd03a06409ff1c5ee4cc526d, type: 3}
-      propertyPath: _BetweenDelay
-      value: 0.08
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09bc0c10fd03a06409ff1c5ee4cc526d, type: 3}
