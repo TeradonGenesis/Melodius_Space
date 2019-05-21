@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 11400002}
   - component: {fileID: 11400000}
   - component: {fileID: 11400006}
+  - component: {fileID: 1993127642215480780}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -186,7 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Hp: 10
   _Point: 100
-  _UseStop: 0
+  _UseStop: 1
   _StopPoint: 2
   healthSlider: {fileID: 3302575011345491973, guid: 0b99457cdbde89041a8f9acb28d99e30,
     type: 3}
@@ -209,3 +210,24 @@ MonoBehaviour:
   _Loop: 1
   _AtRandom: 0
   _ShotList: []
+--- !u!114 &1993127642215480780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c0d62cb2726f542aa5f641a8892780, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dodge: 0
+  smoothing: 0
+  maneuverTime: {x: 0, y: 0}
+  maneuverWait: {x: 0, y: 0}
+  boundary:
+    xMin: 0
+    xMax: 0
+    yMin: 0
+    yMax: 0
