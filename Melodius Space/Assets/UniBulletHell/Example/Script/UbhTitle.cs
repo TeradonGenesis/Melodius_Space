@@ -5,6 +5,7 @@ public class UbhTitle : UbhMonoBehaviour
 {
     const string TITLE_PC = "Press X";
     const string TITLE_MOBILE = "Tap To Start";
+
     [SerializeField]
     GUIText _StartGUIText;
 

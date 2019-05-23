@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class UbhManager : UbhMonoBehaviour
@@ -13,15 +14,29 @@ public class UbhManager : UbhMonoBehaviour
     [SerializeField]
     GameObject _GoLetterBox;
     [SerializeField]
+    GameObject _RestartGame;
+    [SerializeField]
     UbhScore _Score;
+    bool restart;
 
     void Start ()
     {
         _GoLetterBox.SetActive(!_ScaleToFit);
+        restart = false;
+         _RestartGame.SetActive(false);
     }
 
     void Update ()
     {
+        if (restart == true) {
+            if (Input.GetKeyDown(KeyCode.R)) {
+                Application.LoadLevel(Application.loadedLevel);
+            }
+            if (Input.GetKeyDown(KeyCode.M)) {
+                SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
+            }
+        }
+        
         if (UbhUtil.IsMobilePlatform()) {
             /*
             for (int i = 0; i < Input.touchCount; i++) {
@@ -37,7 +52,7 @@ public class UbhManager : UbhMonoBehaviour
             }
 
         } else {
-            if (IsPlaying() == false && Input.GetKeyDown(KeyCode.X)) {
+            if (IsPlaying() == false && Input.GetKeyDown(KeyCode.X) && restart == false) {
                 GameStart();
             }
         }
@@ -51,20 +66,22 @@ public class UbhManager : UbhMonoBehaviour
         if (_GoTitle != null) {
             _GoTitle.SetActive(false);
         }
+        if (_RestartGame != null) {
+            _RestartGame.SetActive(false);
+        }
 
         CreatePlayer();
     }
 
     public void GameOver ()
     {
+        restart = true;
+        _RestartGame.SetActive(true);
+        _GoLetterBox.SetActive(false);
         if (_Score != null) {
             _Score.Save();
-        }
-
-        if (_GoTitle != null) {
-            _GoTitle.SetActive(true);
-
-        } else {
+        } 
+        else {
             // for UBH_ShotShowcase scene.
             CreatePlayer();
         }
@@ -79,7 +96,6 @@ public class UbhManager : UbhMonoBehaviour
     {
         if (_GoTitle != null) {
             return _GoTitle.activeSelf == false;
-
         } else {
             // for UBH_ShotShowcase scene.
             return true;

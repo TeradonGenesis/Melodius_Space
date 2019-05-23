@@ -147,13 +147,15 @@ public class UbhPlayer : UbhMonoBehaviour
 
         if (goName.Contains(NAME_ENEMY)) {
             UbhManager manager = FindObjectOfType<UbhManager>();
-            if (manager != null) {
-                manager.GameOver();
-            }
+            
 
             _Spaceship.Explosion();
 
             Destroy(gameObject);
+
+            if (manager != null) {
+                manager.GameOver();
+            }
         }
     }
 }
