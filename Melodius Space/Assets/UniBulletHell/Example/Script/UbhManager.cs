@@ -14,28 +14,15 @@ public class UbhManager : UbhMonoBehaviour
     [SerializeField]
     GameObject _GoLetterBox;
     [SerializeField]
-    GameObject _RestartGame;
-    [SerializeField]
     UbhScore _Score;
-    bool restart;
 
     void Start ()
     {
         _GoLetterBox.SetActive(!_ScaleToFit);
-        restart = false;
-         _RestartGame.SetActive(false);
     }
 
     void Update ()
     {
-        if (restart == true) {
-            if (Input.GetKeyDown(KeyCode.R)) {
-                Application.LoadLevel(Application.loadedLevel);
-            }
-            if (Input.GetKeyDown(KeyCode.M)) {
-                SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
-            }
-        }
         
         if (UbhUtil.IsMobilePlatform()) {
             /*
@@ -52,7 +39,7 @@ public class UbhManager : UbhMonoBehaviour
             }
 
         } else {
-            if (IsPlaying() == false && Input.GetKeyDown(KeyCode.X) && restart == false) {
+            if (IsPlaying() == false && Input.GetKeyDown(KeyCode.X)) {
                 GameStart();
             }
         }
@@ -66,22 +53,15 @@ public class UbhManager : UbhMonoBehaviour
         if (_GoTitle != null) {
             _GoTitle.SetActive(false);
         }
-        if (_RestartGame != null) {
-            _RestartGame.SetActive(false);
-        }
 
         CreatePlayer();
     }
 
     public void GameOver ()
     {
-        restart = true;
-        _RestartGame.SetActive(true);
         _GoLetterBox.SetActive(false);
-        if (_Score != null) {
-            _Score.Save();
-        } 
-        else {
+        _GoTitle.SetActive(true);
+        if (_Score = null) {
             // for UBH_ShotShowcase scene.
             CreatePlayer();
         }

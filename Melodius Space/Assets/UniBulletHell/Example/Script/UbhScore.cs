@@ -43,6 +43,10 @@ public class UbhScore : UbhMonoBehaviour
         _Score = _Score + point;
     }
 
+    public void MinusPoint() {
+        _Score = _Score - 100;
+    }
+
     public void Save ()
     {
         PlayerPrefs.SetInt(HIGH_SCORE_KEY, _HighScore);

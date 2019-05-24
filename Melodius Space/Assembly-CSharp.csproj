@@ -59,8 +59,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\UniBulletHell\Example\Script\AudioController.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\EnemyMovement.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\LevelSelection.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\MainMenuButtons.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\PauseMenu.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\UbhAutoDespawnParticle.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\UbhAutoScaleGUIText.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\UbhBackground.cs" />
@@ -70,7 +73,6 @@
      <Compile Include="Assets\UniBulletHell\Example\Script\UbhEnemy.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\UbhExplosion.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\UbhManager.cs" />
-     <Compile Include="Assets\UniBulletHell\Example\Script\UbhMenu.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\UbhPlayer.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\UbhScore.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\UbhSetting.cs" />
