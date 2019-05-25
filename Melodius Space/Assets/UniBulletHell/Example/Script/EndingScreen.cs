@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class EndingScreen : MonoBehaviour
 {
+    public GameObject continueText;
     GameObject _boss;
     UbhEmitter _Emitter;
     UbhEnemy _Enemy;
@@ -15,6 +17,7 @@ public class EndingScreen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        continueText.SetActive(false);
         _Emitter = FindObjectOfType<UbhEmitter>();
         _Enemy = FindObjectOfType<UbhEnemy>();
         _Selection = FindObjectOfType<LevelSelection>();
@@ -36,9 +39,14 @@ public class EndingScreen : MonoBehaviour
         // this checks if boss is dead at boss stage
         if(currentWave == totalWave) {
             if(_boss == null){
+                continueText.SetActive(true); //remove this from here later
                 Debug.Log("End game");
+                // use this part to load the cutscene. add in the continuetext to the new scene.
                 if (level == 1) {
                 } else if (level == 2) {
+                }
+                if (Input.GetKeyDown(KeyCode.C)) {
+                    SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
                 }
             }
         }
