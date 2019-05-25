@@ -5,12 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class LevelSelection : MonoBehaviour
 {
+    int levelNumber;
     // Start is called before the first frame update
     public void LoadLevelOne() {
+        levelNumber = 1;
         SceneManager.LoadScene("Level_1_Eden_Of_Denialv2",LoadSceneMode.Single);
     }
 
     public void LoadLevelTwo() {
+        levelNumber = 2;
         SceneManager.LoadScene("Level_2_Sea_Of_Rage",LoadSceneMode.Single);
     }
 
@@ -20,5 +23,10 @@ public class LevelSelection : MonoBehaviour
 
     public void BackToMainMenu() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1,LoadSceneMode.Single);
+    }
+
+    public int GetLevelNumber(int levelnumber) {
+        levelnumber = levelNumber;
+        return levelNumber;
     }
 }

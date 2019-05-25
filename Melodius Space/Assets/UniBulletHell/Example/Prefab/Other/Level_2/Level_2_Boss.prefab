@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6774884554037014396}
   m_Layer: 0
   m_Name: Level_2_Boss
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -401,16 +401,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 8022460312736181449, guid: 4931e407fa4d87c43a1a6763d925d026,
-        type: 3}
-      propertyPath: _StopPoint
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8022460312736181449, guid: 4931e407fa4d87c43a1a6763d925d026,
-        type: 3}
-      propertyPath: _Hp
-      value: 400
-      objectReference: {fileID: 0}
     - target: {fileID: 8022460312736181455, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}
       propertyPath: _ShotList.Array.size
@@ -455,6 +445,16 @@ PrefabInstance:
         type: 3}
       propertyPath: _ShotList.Array.data[3]._AfterDelay
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022460312736181449, guid: 4931e407fa4d87c43a1a6763d925d026,
+        type: 3}
+      propertyPath: _StopPoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022460312736181449, guid: 4931e407fa4d87c43a1a6763d925d026,
+        type: 3}
+      propertyPath: _Hp
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 1951082152, guid: 4931e407fa4d87c43a1a6763d925d026, type: 3}
       propertyPath: m_AnchorMax.y

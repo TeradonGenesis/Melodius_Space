@@ -20,6 +20,7 @@ public class UbhEmitter : UbhMonoBehaviour
 
             Debug.Log("Total waves:" + _Waves.Length);
             Debug.Log("Current wave:" + (_CurrentWave+1));
+            Debug.Log(CurrentWave);
 
             while (_Manager.IsPlaying() == false) {
                 yield return 0;
@@ -35,10 +36,19 @@ public class UbhEmitter : UbhMonoBehaviour
 
             Destroy(wave);
 
-            _CurrentWave = (int) Mathf.Repeat(_CurrentWave + 1f, _Waves.Length);
-            if (_CurrentWave == _Waves.Length) {
+            if (_CurrentWave+1f == _Waves.Length) {
                 break;
             }
+
+            _CurrentWave = (int) Mathf.Repeat(_CurrentWave+1f, _Waves.Length);
         }
+    }
+
+    public int CurrentWave {
+        get {return _CurrentWave+1;}
+    }
+
+    public int TotalWave {
+        get {return _Waves.Length;}
     }
 }

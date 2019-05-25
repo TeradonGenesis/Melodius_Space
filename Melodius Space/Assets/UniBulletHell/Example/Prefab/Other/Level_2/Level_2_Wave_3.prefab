@@ -171,31 +171,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4447340168430409521, guid: d864688f965617e46875a973d2e2dac6,
-        type: 3}
-      propertyPath: _Hp
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4447340168430409521, guid: d864688f965617e46875a973d2e2dac6,
-        type: 3}
-      propertyPath: _Point
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 4447340168430409527, guid: d864688f965617e46875a973d2e2dac6,
-        type: 3}
-      propertyPath: _ShotList.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4447340168430409527, guid: d864688f965617e46875a973d2e2dac6,
-        type: 3}
-      propertyPath: _ShotList.Array.data[0]._ShotObj
-      value: 
-      objectReference: {fileID: 4048038876677285262}
-    - target: {fileID: 4447340168430409527, guid: d864688f965617e46875a973d2e2dac6,
-        type: 3}
-      propertyPath: _ShotList.Array.data[0]._AfterDelay
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 2743012500930877885, guid: d864688f965617e46875a973d2e2dac6,
         type: 3}
       propertyPath: dodge
@@ -225,6 +200,36 @@ PrefabInstance:
         type: 3}
       propertyPath: boundary.xMax
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447340168430409527, guid: d864688f965617e46875a973d2e2dac6,
+        type: 3}
+      propertyPath: _ShotList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447340168430409527, guid: d864688f965617e46875a973d2e2dac6,
+        type: 3}
+      propertyPath: _ShotList.Array.data[0]._ShotObj
+      value: 
+      objectReference: {fileID: 4048038876677285262}
+    - target: {fileID: 4447340168430409527, guid: d864688f965617e46875a973d2e2dac6,
+        type: 3}
+      propertyPath: _ShotList.Array.data[0]._AfterDelay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447340168430409521, guid: d864688f965617e46875a973d2e2dac6,
+        type: 3}
+      propertyPath: _Hp
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447340168430409521, guid: d864688f965617e46875a973d2e2dac6,
+        type: 3}
+      propertyPath: _Point
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117244266820693466, guid: d864688f965617e46875a973d2e2dac6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d864688f965617e46875a973d2e2dac6, type: 3}

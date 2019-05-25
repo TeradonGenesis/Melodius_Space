@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\UniBulletHell\Example\Script\AudioController.cs" />
+     <Compile Include="Assets\UniBulletHell\Example\Script\EndingScreen.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\EnemyMovement.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\LevelSelection.cs" />
      <Compile Include="Assets\UniBulletHell\Example\Script\MainMenuButtons.cs" />
