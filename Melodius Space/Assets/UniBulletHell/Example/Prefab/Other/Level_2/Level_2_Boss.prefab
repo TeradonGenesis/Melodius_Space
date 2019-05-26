@@ -186,6 +186,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6774884554037014396}
     m_Modifications:
+    - target: {fileID: 8022460312745892137, guid: 4931e407fa4d87c43a1a6763d925d026,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyWithHp (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 8022460312745985289, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -241,11 +246,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8022460312745892137, guid: 4931e407fa4d87c43a1a6763d925d026,
-        type: 3}
-      propertyPath: m_Name
-      value: EnemyWithHp (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 8022460312736181449, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}
       propertyPath: _Hp
@@ -264,16 +264,16 @@ PrefabInstance:
     - target: {fileID: 8022460312736181455, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}
       propertyPath: _ShotList.Array.data[0]._AfterDelay
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1951082152, guid: 4931e407fa4d87c43a1a6763d925d026, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 8429755683454394949, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}
       propertyPath: smoothing
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951082152, guid: 4931e407fa4d87c43a1a6763d925d026, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4931e407fa4d87c43a1a6763d925d026, type: 3}
@@ -290,6 +290,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6774884554037014396}
     m_Modifications:
+    - target: {fileID: 8022460312745892137, guid: 4931e407fa4d87c43a1a6763d925d026,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyWithHp (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 8022460312745985289, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -345,11 +350,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8022460312745892137, guid: 4931e407fa4d87c43a1a6763d925d026,
-        type: 3}
-      propertyPath: m_Name
-      value: EnemyWithHp (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 8022460312736181449, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}
       propertyPath: _Hp
@@ -368,16 +368,16 @@ PrefabInstance:
     - target: {fileID: 8022460312736181455, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}
       propertyPath: _ShotList.Array.data[0]._AfterDelay
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1951082152, guid: 4931e407fa4d87c43a1a6763d925d026, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 8429755683454394949, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}
       propertyPath: smoothing
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951082152, guid: 4931e407fa4d87c43a1a6763d925d026, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4931e407fa4d87c43a1a6763d925d026, type: 3}
@@ -460,7 +460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 7d47d99383cfd004eb2e7cd6926b6a24, type: 3}
       propertyPath: _AccelerationTurn
-      value: 60
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 7d47d99383cfd004eb2e7cd6926b6a24, type: 3}
       propertyPath: _AccelerationSpeed
@@ -487,6 +487,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6774884554037014396}
     m_Modifications:
+    - target: {fileID: 8022460312745892137, guid: 4931e407fa4d87c43a1a6763d925d026,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyWithHp
+      objectReference: {fileID: 0}
     - target: {fileID: 8022460312745985289, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -551,11 +556,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8022460312745892137, guid: 4931e407fa4d87c43a1a6763d925d026,
-        type: 3}
-      propertyPath: m_Name
-      value: EnemyWithHp
       objectReference: {fileID: 0}
     - target: {fileID: 8022460312736181449, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}

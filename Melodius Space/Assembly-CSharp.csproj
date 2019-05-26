@@ -119,6 +119,7 @@
      <None Include="Assets\UniBulletHell\Example\PaintShotData\paint_shot_data_0001.txt" />
      <None Include="Assets\UniBulletHell\readme.txt" />
      <None Include="Assets\UniBulletHell\Example\PaintShotData\paint_shot_data_0002.txt" />
+     <None Include="Assets\UniBulletHell\Example\PaintShotData\paint_shot_data_despair.txt" />
      <None Include="Assets\UniBulletHell\Example\PaintShotData\paint_shot_data_deny.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Teradon/Documents/GitHub/Melodius_Space/Melodius Space/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
