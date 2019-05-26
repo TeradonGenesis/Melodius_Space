@@ -153,6 +153,8 @@ public class UbhPlayer : UbhMonoBehaviour
 
             Destroy(gameObject);
 
+            FindObjectOfType<UbhScore>().MinusPoint();
+
             if (manager != null) {
                 manager.GameOver();
             }

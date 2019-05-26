@@ -24,7 +24,6 @@ public class UbhEnemy : UbhMonoBehaviour
     void Start ()
     {
         _Spaceship = GetComponent<UbhSpaceship>();
-
         Move(transform.up.normalized * -1);
         _currentHp = _Hp;
         healthSlider.value = _currentHp;
@@ -72,5 +71,9 @@ public class UbhEnemy : UbhMonoBehaviour
 
     void Update() {
         healthSlider.value = _currentHp;
+    }
+
+    public float CurrentHp {
+        get {return _currentHp;}
     }
 }

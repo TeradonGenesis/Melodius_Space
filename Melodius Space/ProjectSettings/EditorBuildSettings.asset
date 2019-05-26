@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2cf929c371b2d2445b0bd1a7547fc217
   - enabled: 1
+    path: Assets/Scenes/LevelMenu.unity
+    guid: bfd44ef857bfc1a469b584f72b7a00e7
+  - enabled: 1
     path: Assets/Scenes/Level_1_Eden_of_Denialv2.unity
     guid: a84cfd81b71d6634795449e94d804a13
   - enabled: 1

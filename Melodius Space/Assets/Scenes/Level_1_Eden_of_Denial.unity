@@ -1019,12 +1019,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Waves:
-  - {fileID: 6792080871890229115, guid: 8b4569b981b48814384c9c950c3d6ae7, type: 3}
-  - {fileID: 100024, guid: c52607d51c8e77b4db2862aa22ac3b00, type: 3}
-  - {fileID: 100024, guid: b11f9c08d848daa4097a769cde9ac5b6, type: 3}
-  - {fileID: 100024, guid: 7e999a3e57d1146419070cbc3e3a0ff5, type: 3}
-  - {fileID: 100024, guid: 2eb6d81af212128448a35b2e87a26bbe, type: 3}
-  - {fileID: 100024, guid: 2eb6d81af212128448a35b2e87a26bbe, type: 3}
+  - {fileID: 1101326185149835264, guid: 5f36b2759a74cd54ca48602e58156bae, type: 3}
+  - {fileID: 1101326185149835264, guid: 5f36b2759a74cd54ca48602e58156bae, type: 3}
 --- !u!4 &1675047023
 Transform:
   m_ObjectHideFlags: 0
