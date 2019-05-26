@@ -1,6 +1,6 @@
 /target:library
 /nowarn:0169
-/out:Temp/Unity.Analytics.DataPrivacy.dll
+/out:Temp/Assembly-CSharp.dll
 /debug:portable
 /optimize-
 /nostdlib+
@@ -66,20 +66,17 @@
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/Managed/UnityEditor.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/Managed/Unity.Locator.dll"
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
-/reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
-/reference:"C:/Users/Marc/Documents/GitHub/Melodius_Space/Melodius Space/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
-/reference:"C:/Users/Marc/Documents/GitHub/Melodius_Space/Melodius Space/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll"
-/reference:"C:/Users/Marc/Documents/GitHub/Melodius_Space/Melodius Space/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll"
-/reference:"C:/Users/Marc/Documents/GitHub/Melodius_Space/Melodius Space/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll"
-/reference:"C:/Users/Marc/Documents/GitHub/Melodius_Space/Melodius Space/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll"
+/reference:"C:/Users/Teradon/Documents/GitHub/Melodius_Space/Melodius Space/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll"
+/reference:"C:/Users/Teradon/Documents/GitHub/Melodius_Space/Melodius Space/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll"
+/reference:"C:/Users/Teradon/Documents/GitHub/Melodius_Space/Melodius Space/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
@@ -297,6 +294,62 @@
 /define:UNITY_TEAM_LICENSE
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"C:\Users\Marc\Documents\GitHub\Melodius_Space\Melodius Space\Library\PackageCache\com.unity.analytics@3.3.2\DataPrivacy\AssemblyInfo.cs"
-"C:\Users\Marc\Documents\GitHub\Melodius_Space\Melodius Space\Library\PackageCache\com.unity.analytics@3.3.2\DataPrivacy\DataPrivacy.cs"
-"C:\Users\Marc\Documents\GitHub\Melodius_Space\Melodius Space\Library\PackageCache\com.unity.analytics@3.3.2\DataPrivacy\DataPrivacyButton.cs"
+Assets\UniBulletHell\Example\Script\AudioController.cs
+Assets\UniBulletHell\Example\Script\EndingScreen.cs
+Assets\UniBulletHell\Example\Script\EnemyMovement.cs
+Assets\UniBulletHell\Example\Script\LevelSelection.cs
+Assets\UniBulletHell\Example\Script\MainMenuButtons.cs
+Assets\UniBulletHell\Example\Script\PauseMenu.cs
+Assets\UniBulletHell\Example\Script\UbhAutoDespawnParticle.cs
+Assets\UniBulletHell\Example\Script\UbhAutoScaleGUIText.cs
+Assets\UniBulletHell\Example\Script\UbhBackground.cs
+Assets\UniBulletHell\Example\Script\UbhDebugInfo.cs
+Assets\UniBulletHell\Example\Script\UbhDestroyArea.cs
+Assets\UniBulletHell\Example\Script\UbhEmitter.cs
+Assets\UniBulletHell\Example\Script\UbhEnemy.cs
+Assets\UniBulletHell\Example\Script\UbhExplosion.cs
+Assets\UniBulletHell\Example\Script\UbhManager.cs
+Assets\UniBulletHell\Example\Script\UbhPlayer.cs
+Assets\UniBulletHell\Example\Script\UbhScore.cs
+Assets\UniBulletHell\Example\Script\UbhSetting.cs
+Assets\UniBulletHell\Example\Script\UbhShowcaseCtrl.cs
+Assets\UniBulletHell\Example\Script\UbhSimpleBullet.cs
+Assets\UniBulletHell\Example\Script\UbhSpaceship.cs
+Assets\UniBulletHell\Example\Script\UbhTitle.cs
+Assets\UniBulletHell\Script\Bullet\UbhBullet.cs
+Assets\UniBulletHell\Script\Controller\UbhShotCtrl.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhBaseShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhCircleShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhHoleCircleLockOnShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhHoleCircleShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhHomingShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhLinearLockOnShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhLinearShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhNwayLockOnShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhNwayShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhOverTakeNwayLockOnShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhOverTakeNwayShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhPaintLockOnShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhPaintShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhRandomLockOnShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhRandomShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhRandomSpiralMultiShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhRandomSpiralShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhSinWaveBulletNwayLockOnShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhSinWaveBulletNwayShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhSpiralMultiNwayShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhSpiralMultiShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhSpiralNwayShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhSpiralShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhSpreadNwayLockOnShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhSpreadNwayShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhWavingNwayLockOnShot.cs
+Assets\UniBulletHell\Script\ShotPattern\UbhWavingNwayShot.cs
+Assets\UniBulletHell\Script\Singleton\UbhCoroutine.cs
+Assets\UniBulletHell\Script\Singleton\UbhObjectPool.cs
+Assets\UniBulletHell\Script\Singleton\UbhSingletonMonoBehavior.cs
+Assets\UniBulletHell\Script\Singleton\UbhTimer.cs
+Assets\UniBulletHell\Script\Utility\UbhMonoBehaviour.cs
+Assets\UniBulletHell\Script\Utility\UbhNonKinematic2D.cs
+Assets\UniBulletHell\Script\Utility\UbhTransformExtention.cs
+Assets\UniBulletHell\Script\Utility\UbhUtil.cs

@@ -38,6 +38,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9185211171241747844}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 8a5b19be780bb420caabd7338994327b, type: 3}
+      propertyPath: _PaintDataText
+      value: 
+      objectReference: {fileID: 4900000, guid: 15512502dfe76fe4987d682b01d81845, type: 3}
     - target: {fileID: 100000, guid: 8a5b19be780bb420caabd7338994327b, type: 3}
       propertyPath: m_Name
       value: PaintLockOnShot
@@ -86,10 +90,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 8a5b19be780bb420caabd7338994327b, type: 3}
-      propertyPath: _PaintDataText
-      value: 
-      objectReference: {fileID: 4900000, guid: 15512502dfe76fe4987d682b01d81845, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a5b19be780bb420caabd7338994327b, type: 3}
 --- !u!114 &4048038876677285262 stripped
@@ -219,12 +219,17 @@ PrefabInstance:
     - target: {fileID: 4447340168430409521, guid: d864688f965617e46875a973d2e2dac6,
         type: 3}
       propertyPath: _Hp
-      value: 300
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 4447340168430409521, guid: d864688f965617e46875a973d2e2dac6,
         type: 3}
       propertyPath: _Point
-      value: 200
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4447340168430409521, guid: d864688f965617e46875a973d2e2dac6,
+        type: 3}
+      propertyPath: _UseStop
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7117244266820693466, guid: d864688f965617e46875a973d2e2dac6,
         type: 3}
