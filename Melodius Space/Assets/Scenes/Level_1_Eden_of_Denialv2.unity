@@ -237,6 +237,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3491701660778497831, guid: bb35286aad499a94ca7d735bc61a1d97,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb35286aad499a94ca7d735bc61a1d97, type: 3}
 --- !u!1 &295963661
@@ -273,7 +278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000061035156, y: 300}
+  m_AnchoredPosition: {x: -0.000061035156, y: 700}
   m_SizeDelta: {x: 603.44, y: 76.899994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &295963663
@@ -298,18 +303,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0a0d76bdbb99c492b962a4e6a5b7d568, type: 3}
-    m_FontSize: 40
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rage Conquered
+  m_Text: Denial Conquered
 --- !u!222 &295963664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -358,11 +363,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0a0d76bdbb99c492b962a4e6a5b7d568, type: 3}
-    m_FontSize: 40
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 100
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -394,7 +399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000061035156, y: 200}
+  m_AnchoredPosition: {x: -0.000061035156, y: 584.8}
   m_SizeDelta: {x: 603.44, y: 76.899994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &434637689
@@ -437,11 +442,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0a0d76bdbb99c492b962a4e6a5b7d568, type: 3}
-    m_FontSize: 24
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 8
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -617,7 +622,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -200}
+  m_AnchoredPosition: {x: 0, y: -100}
   m_SizeDelta: {x: 558.2, y: 558.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &594847787
@@ -642,18 +647,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0a0d76bdbb99c492b962a4e6a5b7d568, type: 3}
-    m_FontSize: 50
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
-    m_MaxSize: 50
+    m_MinSize: 0
+    m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Illusionary World
+  m_Text: EDEN OF DENIAL
 --- !u!222 &594847788
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -709,7 +714,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -300}
+  m_AnchoredPosition: {x: 0, y: -220}
   m_SizeDelta: {x: 558.2, y: 558.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &681256192
@@ -734,10 +739,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0a0d76bdbb99c492b962a4e6a5b7d568, type: 3}
-    m_FontSize: 50
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 5
+    m_MinSize: 2
     m_MaxSize: 50
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -850,10 +855,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -948,7 +953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 30, y: 30.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &806094060
@@ -981,17 +986,17 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0a0d76bdbb99c492b962a4e6a5b7d568, type: 3}
-    m_FontSize: 24
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 5
   m_Text: 'FPS: 0'
 --- !u!1 &839672324
 GameObject:
@@ -1123,8 +1128,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Waves:
+  - {fileID: 1101326185149835264, guid: 5f36b2759a74cd54ca48602e58156bae, type: 3}
+  - {fileID: 3799956084905972526, guid: aadd1c873fd425549961aa9745b71826, type: 3}
   - {fileID: 7371371364847467867, guid: bac6c2ae80cf47d44a4d88b06aa9e3ec, type: 3}
-  - {fileID: 7371371364847467867, guid: bac6c2ae80cf47d44a4d88b06aa9e3ec, type: 3}
+  - {fileID: 1149592996812977947, guid: c014ae254d456f446b2491fd992b1a7c, type: 3}
 --- !u!4 &933741753
 Transform:
   m_ObjectHideFlags: 0
@@ -1316,10 +1323,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1682,11 +1689,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0a0d76bdbb99c492b962a4e6a5b7d568, type: 3}
-    m_FontSize: 24
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1718,7 +1725,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 30, y: -26.7}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1490811470
@@ -2297,11 +2304,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0a0d76bdbb99c492b962a4e6a5b7d568, type: 3}
-    m_FontSize: 24
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2581,7 +2588,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 40}
+  m_AnchoredPosition: {x: 0, y: 435.2}
   m_SizeDelta: {x: 603.44, y: 76.899994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2122251010
@@ -2606,11 +2613,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0a0d76bdbb99c492b962a4e6a5b7d568, type: 3}
-    m_FontSize: 40
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 300
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1

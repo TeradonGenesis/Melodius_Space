@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7885160787625821307}
   m_Layer: 0
   m_Name: Level_3_Boss
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1088,7 +1088,7 @@ PrefabInstance:
     - target: {fileID: 8022460312736181449, guid: 4931e407fa4d87c43a1a6763d925d026,
         type: 3}
       propertyPath: _Hp
-      value: 300
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 1951082152, guid: 4931e407fa4d87c43a1a6763d925d026, type: 3}
       propertyPath: m_AnchorMax.y
