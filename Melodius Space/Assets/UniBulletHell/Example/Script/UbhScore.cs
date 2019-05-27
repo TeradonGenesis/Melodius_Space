@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class UbhScore : UbhMonoBehaviour
 {
@@ -8,9 +9,9 @@ public class UbhScore : UbhMonoBehaviour
     [SerializeField]
     bool _DeleteScore;
     [SerializeField]
-    GUIText _ScoreGUIText;
+    Text _ScoreGUIText;
     [SerializeField]
-    GUIText _HighScoreGUIText;
+    Text _HighScoreGUIText;
     int _Score;
     int _HighScore;
 
@@ -24,7 +25,7 @@ public class UbhScore : UbhMonoBehaviour
         if (_HighScore < _Score) {
             _HighScore = _Score;
         }
-
+        Score = _Score;
         _ScoreGUIText.text = _Score.ToString();
         _HighScoreGUIText.text = HIGH_SCORE_TITLE + _HighScore.ToString();
     }
@@ -53,5 +54,14 @@ public class UbhScore : UbhMonoBehaviour
         PlayerPrefs.Save();
 
         Initialize();
+    }
+
+    public int Score {
+        get {return _Score;}
+        set {_Score = value;}
+    }
+
+    public string CurrentScore {
+        get {return _ScoreGUIText.text;}
     }
 }

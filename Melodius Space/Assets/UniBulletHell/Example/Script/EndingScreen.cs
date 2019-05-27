@@ -10,17 +10,22 @@ public class EndingScreen : MonoBehaviour
     GameObject _boss;
     UbhEmitter _Emitter;
     UbhEnemy _Enemy;
+    UbhScore _Score;
+    UbhManager _Manager;
+    UbhSpaceship _Spaceship;
     LevelSelection _Selection;
     int currentWave;
     int totalWave;
     int level;
+    float bossHp;
     // Start is called before the first frame update
     void Start()
     {
         continueText.SetActive(false);
         _Emitter = FindObjectOfType<UbhEmitter>();
-        _Enemy = FindObjectOfType<UbhEnemy>();
         _Selection = FindObjectOfType<LevelSelection>();
+        _Score = FindObjectOfType<UbhScore>();
+        _Enemy = FindObjectOfType<UbhEnemy>();
         //this checks for current level
         if (SceneManager.GetActiveScene().name == "Level_2_Sea_Of_Rage") {
             level = 2;
@@ -35,19 +40,24 @@ public class EndingScreen : MonoBehaviour
     {
         currentWave = _Emitter.CurrentWave;
         totalWave = _Emitter.TotalWave;
-        _boss = GameObject.FindGameObjectWithTag("Boss");
+        _Manager = FindObjectOfType<UbhManager>();
         // this checks if boss is dead at boss stage
         if(currentWave == totalWave) {
-            if(_boss == null){
+            _boss = GameObject.FindGameObjectWithTag("Boss");
+            if (_boss == null) {
+                if (_Manager.IsPlaying() == true) {
                 continueText.SetActive(true); //remove this from here later
                 Debug.Log("End game");
                 // use this part to load the cutscene. add in the continuetext to the new scene.
                 if (level == 1) {
                 } else if (level == 2) {
-                }
+                 }
                 if (Input.GetKeyDown(KeyCode.C)) {
                     SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
-                }
+                    }
+            } else {
+                continueText.SetActive(false);
+            }
             }
         }
         
