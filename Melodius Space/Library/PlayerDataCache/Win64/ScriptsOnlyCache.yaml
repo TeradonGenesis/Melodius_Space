@@ -38,6 +38,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -1521,4 +1523,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level_1_Eden_of_Denialv2.unity
   - Assets/Scenes/Level_2_Sea_Of_Rage.unity
   - Assets/Scenes/Level_3_Factory_Of_Despair.unity
-  playerPath: C:/Users/Teradon/Desktop/Illusory_World/Illusory World.exe
+  playerPath: C:/Users/Marc/Desktop/ss/Illusory World.exe

@@ -1003,7 +1003,7 @@ GameObject:
   - component: {fileID: 1910088898}
   - component: {fileID: 1910088897}
   m_Layer: 5
-  m_Name: Load Levels
+  m_Name: Play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -334,10 +334,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Waves:
-  - {fileID: 7555539039179382584, guid: 8aea36a8a78b3ac4f8fe636ed0639c39, type: 3}
-  - {fileID: 8996652840189865536, guid: 81f4879a0ca902942a18f3ffb4a31ed6, type: 3}
-  - {fileID: 2518620146961873810, guid: c3e04121fbc1e594a8357986d7747ec7, type: 3}
-  - {fileID: 6774884554037014397, guid: 4741d80f51f4cd746a01502c02d7d7ef, type: 3}
+  - {fileID: 8085418968085240610, guid: 49fcbe5999a2f874abbb3e53b3c885a2, type: 3}
+  - {fileID: 156273531257410020, guid: e86a11a3d52e8214ea6fec57a1843f10, type: 3}
+  - {fileID: 3251667923971898384, guid: 42d527fed386e5440a0f14a3ec9f650b, type: 3}
+  - {fileID: 4136993940402464754, guid: 8ab2cb760634a52418f6ec320ab4e2da, type: 3}
 --- !u!4 &70134647
 Transform:
   m_ObjectHideFlags: 0
@@ -1994,6 +1994,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UiScaleMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3491701660778497828, guid: bb35286aad499a94ca7d735bc61a1d97,
+        type: 3}
+      propertyPath: m_PixelPerfect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3491701660778497828, guid: bb35286aad499a94ca7d735bc61a1d97,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb35286aad499a94ca7d735bc61a1d97, type: 3}
