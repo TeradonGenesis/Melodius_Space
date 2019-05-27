@@ -18,7 +18,8 @@ public class LevelSelection : MonoBehaviour
     }
 
     public void LoadLevelThree() {
-        Debug.Log("Level 3 loaded");
+        levelNumber = 3;
+        SceneManager.LoadScene("Level_3_Factory_Of_Despair",LoadSceneMode.Single);
     }
 
     public void BackToMainMenu() {
