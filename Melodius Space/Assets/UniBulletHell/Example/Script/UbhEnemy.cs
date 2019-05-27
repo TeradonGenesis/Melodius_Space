@@ -19,7 +19,7 @@ public class UbhEnemy : UbhMonoBehaviour
     UbhSpaceship _Spaceship;
     public Slider healthSlider;  
 
-    public int _currentHp;  
+    float _currentHp;  
 
     void Start ()
     {
@@ -46,7 +46,7 @@ public class UbhEnemy : UbhMonoBehaviour
         rigidbody2D.velocity = direction * _Spaceship._Speed;
     }
 
-    void OnTriggerEnter2D (Collider2D c)
+    public void OnTriggerEnter2D (Collider2D c)
     {
         // *It is compared with name in order to separate as Asset from project settings.
         //  However, it is recommended to use Layer or Tag.
@@ -55,9 +55,9 @@ public class UbhEnemy : UbhMonoBehaviour
 
             UbhObjectPool.Instance.ReleaseGameObject(c.transform.parent.gameObject);
 
-            _currentHp = _currentHp - bullet._Power;
+            CurrentHp = CurrentHp - bullet._Power;
 
-            if (_currentHp <= 0) {
+            if (CurrentHp <= 0) {
                 FindObjectOfType<UbhScore>().AddPoint(_Point);
 
                 _Spaceship.Explosion();
@@ -71,9 +71,11 @@ public class UbhEnemy : UbhMonoBehaviour
 
     void Update() {
         healthSlider.value = _currentHp;
+        CurrentHp = _currentHp;
     }
 
     public float CurrentHp {
         get {return _currentHp;}
+        set {_currentHp = value;}
     }
 }
