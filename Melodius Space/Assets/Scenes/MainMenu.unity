@@ -348,7 +348,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1467298383}
-        m_MethodName: QuitGame
+        m_MethodName: Instructions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -663,7 +663,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: de81290515477324dad40f9a77742bb6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4b5574803976c05448cf5f347327afb7, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.446
   m_Pitch: 1

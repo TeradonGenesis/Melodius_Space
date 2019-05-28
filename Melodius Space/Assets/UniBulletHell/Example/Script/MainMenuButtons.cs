@@ -18,4 +18,12 @@ public class MainMenuButtons : MonoBehaviour
     public void LoadLevels() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1,LoadSceneMode.Single);
     }
+
+    public void Instructions() {
+        SceneManager.LoadScene("instructions",LoadSceneMode.Single);
+    }
+
+     public void Back() {
+        SceneManager.LoadScene("MainMenu",LoadSceneMode.Single);
+    }
 }
