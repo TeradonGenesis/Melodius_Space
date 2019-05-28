@@ -16,12 +16,15 @@ ScriptsOnlyBuild:
     - UbhEmitter
     - UbhEnemy
     - UbhExplosion
+    - UbhHomingShot
     - UbhLinearLockOnShot
     - UbhManager
     - UbhNonKinematic2D
     - UbhNwayShot
     - UbhPaintLockOnShot
+    - UbhPaintShot
     - UbhPlayer
+    - UbhRandomLockOnShot
     - UbhRandomShot
     - UbhScore
     - UbhSetting
@@ -31,6 +34,7 @@ ScriptsOnlyBuild:
     - UbhSpaceship
     - UbhSpiralMultiShot
     - UbhSpiralShot
+    - UbhSpreadNwayLockOnShot
     - UbhWavingNwayShot
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
@@ -156,6 +160,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9252}
     - Class: 114
       Script: {instanceID: 9266}
     - Class: 114
@@ -286,6 +292,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9200}
     - Class: 114
+      Script: {instanceID: 9252}
+    - Class: 114
       Script: {instanceID: 9266}
     - Class: 114
       Script: {instanceID: 9294}
@@ -411,11 +419,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9200}
+      Script: {instanceID: 9194}
+    - Class: 114
+      Script: {instanceID: 9252}
     - Class: 114
       Script: {instanceID: 9266}
-    - Class: 114
-      Script: {instanceID: 9294}
     - Class: 114
       Script: {instanceID: 9336}
     - Class: 114
@@ -435,11 +443,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9580}
     - Class: 114
-      Script: {instanceID: 9698}
+      Script: {instanceID: 9686}
     - Class: 114
       Script: {instanceID: 9728}
     - Class: 114
       Script: {instanceID: 9778}
+    - Class: 114
+      Script: {instanceID: 9798}
     - Class: 114
       Script: {instanceID: 9852}
     - Class: 114
@@ -451,9 +461,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9964}
     - Class: 114
-      Script: {instanceID: 9974}
-    - Class: 114
       Script: {instanceID: 9976}
+    - Class: 114
+      Script: {instanceID: 10050}
     - Class: 114
       Script: {instanceID: 10142}
     - Class: 114
@@ -472,8 +482,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10652}
     - Class: 114
       Script: {instanceID: 10694}
-    - Class: 114
-      Script: {instanceID: 10702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -491,6 +499,65 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 92
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9252}
+    - Class: 114
+      Script: {instanceID: 9336}
+    - Class: 114
+      Script: {instanceID: 9338}
+    - Class: 114
+      Script: {instanceID: 9344}
+    - Class: 114
+      Script: {instanceID: 9350}
+    - Class: 114
+      Script: {instanceID: 9358}
+    - Class: 114
+      Script: {instanceID: 9394}
+    - Class: 114
+      Script: {instanceID: 9396}
+    - Class: 114
+      Script: {instanceID: 9568}
+    - Class: 114
+      Script: {instanceID: 10590}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/instructions.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -1520,6 +1587,7 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/LevelMenu.unity
+  - Assets/Scenes/instructions.unity
   - Assets/Scenes/Level_1_Eden_of_Denialv2.unity
   - Assets/Scenes/Level_2_Sea_Of_Rage.unity
   - Assets/Scenes/Level_3_Factory_Of_Despair.unity
