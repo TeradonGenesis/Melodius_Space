@@ -37,4 +37,15 @@ public class EndingTest
         bool _isplaying = checkplaying.IsPlaying();
         Assert.AreNotEqual(_isplaying,_gameispaused);
     }
+
+    [Test]
+    public void LevelSelectionTest() {
+        LevelSelection level;
+        var obj = new GameObject();
+
+        level = obj.AddComponent<LevelSelection>();
+
+        Assert.AreEqual(0, level.GetLevelNumber(3));
+    }
+    
 }
