@@ -47,5 +47,25 @@ public class EndingTest
 
         Assert.AreEqual(0, level.GetLevelNumber(3));
     }
+
+    [Test]
+    public void SimpleBulletTest() {
+        UbhSimpleBullet bullet;
+        var obj = new GameObject();
+        int damageOfABullet = 1;
+
+        bullet = obj.AddComponent<UbhSimpleBullet>();
+        Assert.AreEqual(damageOfABullet, bullet._Power);
+    }
+
+    [Test]
+    public void FrameRateSettingTest() {
+        UbhSetting setting;
+        var obj = new GameObject();
+        int defaultFrameRate = 60;
+
+        setting = obj.AddComponent<UbhSetting>();
+        Assert.AreEqual(defaultFrameRate, setting._FrameRate);
+    }
     
 }
